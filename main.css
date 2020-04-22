@@ -1,0 +1,915 @@
+body{
+    width: 1152px;
+    height: 4300px;
+    font-family: Chalkduster; 
+    font-style: normal;
+    font-weight: normal;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.background{
+    position: absolute;
+    width: 100%;
+    height: 4220px;
+    left: 0px;
+    top: 0px;
+    background: #507767;
+}
+.name{
+    height: 0.08px;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.name > ul {
+	padding-left: 0;
+	display: flex;
+	list-style-type: none;
+	animation: marqee 15s linear infinite;
+    position: absolute;
+    
+}
+.name > ul > li {
+	white-space: nowrap;
+	margin-right: 2em;
+	font-weight: bold;
+    color: black;
+}
+.twelve{
+    position: absolute;
+    width: 111px;
+    height: 163px;
+    left: 670px;
+    top: 280px;
+
+    font-size: 96px;
+    line-height: 123px;
+
+    color: #F7931E;
+}
+
+.a12{
+    position: absolute;
+    width: 419px;
+    height: 73px;
+    right: 215px;
+    top: 280px;
+    
+    font-size: 76px;
+    line-height: 123px;
+    
+    color: black;
+}
+
+.a13{
+    position: absolute;
+    width: 419px;
+    height: 73px;
+    left: 900px;
+    top: 400px;
+
+    font-size: 76px;
+    line-height: 123px;
+    
+    color: black;
+
+}
+
+.solomon{
+    position: absolute;
+    width: 300px;
+    height: 500px;
+    
+    top: 150px;
+    left: 230px;
+  }
+.americaflag1{
+    position: absolute;
+    width: 65px;
+    height: 102px;
+    
+    top: 317px;
+    left: 210px;
+}
+
+.americaflag2{
+    position: absolute;
+    width: 65px;
+    height: 102px;
+
+    top: 357px;
+    left: 515px;   
+}
+
+.chatcloud2{
+    position: absolute;
+    width: 446px;
+    height: 138px; 
+
+    top: 60px;
+    left: 446px;
+}
+
+.chat1{
+   position: absolute;
+   left: 622.5px;
+   top: 95px;
+
+   font-size: 22px;
+   line-height: 15px;
+
+   color: #000000;
+    
+}
+
+.circle1{
+    display: flex;
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background-color: cornsilk;
+    left: 580px;
+    top: 225px;
+
+    animation-name: wait;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+
+}
+
+     @keyframes wait{
+        from{
+          background: #000000;
+        }
+        to{
+          background: #CCCCCC;
+        }
+      }
+     
+ 
+ .circle2{
+
+    display: flex;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: cornsilk;
+    left: 525px;
+    top: 270px;
+
+    animation-name: wait;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+
+}
+
+     @keyframes wait{
+        from{
+          background: #000000;
+        }
+        to{
+          background: #CCCCCC;
+        }
+      }
+ 
+.chatcloud1{
+    position: absolute;
+    width: 446px;
+    height: 138px; 
+    
+    transform: rotate(-179.27deg);
+    left: 463.37px;
+    top: 477.41px;
+}
+
+.chat2{
+    position: absolute;
+    left: 622.5px;
+    top: 515px;
+    font-size: 22px;
+    line-height: 15px;
+    
+    color: #000000; 
+}
+
+.dot{
+    position: absolute;
+    width:100px;
+    height:80px;
+    left: 1000px;
+    top: 200px;
+
+    transform: rotate(13.41deg);
+    translate: (-10px 10px);
+
+}
+
+.lovelylife{
+    position: absolute;
+    width: 310px;
+    height: 60px;
+    right: 1060px;
+    top: 800px;
+
+    font-size: 42px;
+    line-height: 54px;
+
+    color: #000000;
+}
+
+.lovelylife:hover{
+    animation: lovelylife 0.4s ease ;
+    border-bottom: 5.2px dotted #F7931E;
+    overflow: hidden;
+}
+
+
+.heart{
+    position: absolute;
+    width: 287px;
+    height: 272px;
+
+    left: 550px;
+    top: 850px; 
+    transform: rotate(3.27deg);
+    z-index: 0;
+    filter: blur(0.01px);
+    transform: scale(1.025); 
+    animation: heart 1s infinite ease;
+}
+
+ @keyframes heart{
+    0% {transform: scale(1.025) rotate(0);}
+    10% {transform: scale(0.925) rotate(3deg);}
+    20% {transform: scale(1.125) rotate(-3deg);}
+    30% {transform: scale(0.925) rotate(3deg);}
+    40%{transform: scale(1.125) rotate(-3deg);}
+    50%{transform: scale(1.125) rotate(3deg);}
+    60% {transform: scale(1.125) rotate(-3deg);}
+    70% {transform: scale(1.125) rotate(3deg);}
+    80% {transform: scale(1.125) rotate(-3deg);}
+    100% {transform: scale(1.025) rotate(0);}
+
+ }
+
+
+
+.solomon1{
+    position: absolute;
+    width: 252px;
+    height: 430px;
+    left: 450px;
+    top: 929px; 
+    transform: rotate(1.1deg);
+}
+
+.wife{
+    position: absolute;
+    width: 252px;
+    height: 430px;
+    left: 720px;
+    top: 929px;
+    transform: rotate(1.1deg);
+}
+
+.dot1{
+    position: absolute;
+    width: 32px;
+    height: 75px;
+    left: 190px;
+    top: 1148px;
+    
+}
+
+
+.son{
+    position: absolute;
+    width: 100px;
+    height: 200px;
+    left: 400px;
+    top: 1160px;
+}
+
+.daughter{
+    position: absolute;
+    width: 150px;
+    height: 250px;
+    
+    right: 380px;
+    top: 1100px;
+
+}
+
+.family{
+    position: absolute;
+    width: 336px;
+    height: 60px;
+    left: 555px;
+    top: 1390px;
+
+    font-size: 36px;
+    line-height: 46px;
+
+    color: #000000;
+}
+
+.dot2{
+    position: absolute;
+    width: 50px;
+    height: 80px;
+    left: 140px;
+    top: 960px; 
+}
+
+.dot3{
+    position: absolute;
+    width: 50px;
+    height: 70px;
+    
+    left: 375px;
+    top: 900px;
+}
+
+.dot4{
+    position: absolute;
+    width: 50px;
+    height: 60px;
+
+    left: 1000px;
+    top: 925px;
+
+}
+
+.dot5{
+    position: absolute;
+    width: 40px;
+    height: 50px;
+    
+    left: 1070px;
+    top: 1070px;
+}
+
+.dot6{
+    position: absolute;
+    width: 20px;
+    height: 50px;
+    
+    left: 1158px;
+    top: 1205px;
+}
+
+.slavelife{
+    position: absolute;
+    width: 315px;
+    height: 60px;
+    right: 1060px;
+    top: 1600px;
+
+    font-size: 42px;
+    line-height: 54px;
+
+    color: #000000;
+}
+
+.slavelife :hover{
+    animation: slavelife 0.4s ease;
+    border-bottom: 5.2px dotted #F7931E;
+    overflow: hidden;
+
+}
+
+.grass{
+    position: absolute;
+    width: 1300px;
+    height: 500px;
+    left: 115px;
+    top: 1704px; 
+}
+
+.workers1{
+    position: absolute;
+    width: 252px;
+    height: 430px;
+
+    left: 325px;
+    top: 1800px;
+}
+
+.workers2{
+    position: absolute;
+    width: 180px;
+    height: 380px;
+
+    left: 565px;
+    top: 1875px;
+}
+
+.workers3{
+    position: absolute;
+    width: 150px;
+    height: 380px;
+
+    left: 790px;
+    top: 1890px;
+}
+
+.workers4{
+    position: absolute;
+    width: 185px;
+    height: 350px;
+    
+    left: 930px;
+    top: 1875px;
+}
+
+.chatcloud3{
+    position: absolute;
+    width: 447px;
+    height: 166px;
+
+    left: 480px;
+    top: 1720px;
+}
+
+.chat3{
+    position: absolute;
+    width: 303px;
+    height: 55px;
+    
+    font-size: 24px;
+    line-height: 25px;
+
+    color: #000000;
+
+    top: 1750.5px;
+    left: 565px;
+}
+
+.water1{
+    position: absolute;
+
+    width: 11px;
+    height: 25px;
+
+    top: 1950px;
+    left: 510px;
+    transform: matrix(-0.97, -0.25, -0.25, 0.97, 0, 0);
+    animation: water1 2s infinite reverse;
+    animation-delay: 1s;
+}
+
+ @keyframes water1{
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-22px); }
+ }
+
+.water2{
+    position: absolute;
+
+    width: 8px;
+    height: 20px;
+
+    top: 2020px;
+    left: 630px;
+
+    transform: matrix(-0.99, 0.15, 0.15, 0.99, 0, 0);
+    animation: water2 1.5s infinite reverse;
+    animation-delay: 1.5s;
+    
+}
+
+@keyframes water2{
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+
+.water3{
+    position: absolute;
+    width: 8.5px;
+    height: 16px;
+
+    top: 2010px;
+    left: 610px;
+
+    transform: matrix(-0.99, 0.15, 0.15, 0.99, 0, 0);
+    animation: water3 1.5s infinite normal;
+    animation-delay: 1.5s;
+}
+
+@keyframes water3{
+    0% { transform: translateY(0); }
+    100% { transform: translateY(20px); }
+}
+
+.water4{
+    position: absolute;
+    width: 8.5px;
+    height: 16px;
+    top: 2030px;
+    left: 900px;
+
+    transform: matrix(0.99, 0.15, 0.15, 0.99, 0, 0);
+    animation: water4 1.5s infinite normal;
+    animation-delay: 1.5s;
+}
+
+@keyframes water4{
+    0% { transform: translateY(0); }
+    100% { transform: translateY(20px); } 
+}
+
+.water5{
+    position: absolute;
+    width: 8.5px;
+    height: 16px;
+
+    top: 2015px;
+    left: 980px;
+     
+    transform: matrix(-0.99, 0.15, 0.15, 0.99, 0, 0);
+    animation: water5 1.5s infinite reverse;
+    animation-delay: 1.5s;
+}
+
+    @keyframes water5{
+        0% { transform: translateY(0); }
+        100% { transform: translateY(-20px); }  
+    }
+
+.sun{
+    position: absolute;
+    width: 115px;
+    height: 115px;
+    border-radius: 50%;
+    background: #ffe208;
+    box-shadow: 0 0 15px rgba(255,255,8,5);
+
+    top: 1600px;
+    left: 1060px;
+    animation: sun 5s linear infinite;
+}
+
+    @keyframes sun{
+        from {left: 30%;}
+        to {left: 80%}
+    }
+
+.slavelife1{
+    position: absolute;
+    width: 315px;
+    height: 60px;
+    right: 1060px;
+    top: 2400px;
+
+    font-size: 42px;
+    line-height: 54px;
+
+    color: #000000;
+}
+
+.slavelife1:hover{
+    animation: slavelife1 0.4s ease;
+    border-bottom: 5.2px dotted #F7931E;
+    overflow: hidden;
+
+}
+
+.solomon2{
+    position: absolute;
+    width: 227px;
+    height: 367px;
+
+    left: 400px;
+    top: 2550px;
+}
+
+.employee{
+    position: absolute;
+    width: 236px;
+    height: 440px;
+
+    left: 800px;
+    top: 2490px;
+}
+
+.chatcloud4{
+    position: absolute;
+    width: 460px;
+    height: 138px; 
+
+    left: 486px;
+    top: 2476px;
+
+    transform: rotate(-176.73deg);
+}
+
+.chat4{  
+   position: absolute;
+   left: 645px;
+   top: 2520px; 
+
+   font-size: 22px;
+   line-height: 15px;
+
+   color: #000000;
+}
+
+.mad1{
+    position: absolute;
+    
+    left: 834px;
+    top: 2389px;
+    
+    width: 45px;
+    height: 80px;
+
+    transform: rotate(11.11deg);
+}
+
+.mad2{
+    position: absolute;
+    left: 980px;
+    top: 2460px;
+    
+    width: 45px;
+    height: 80px;
+    transform: rotate(11.11deg);
+}
+
+.hope{
+    position: absolute;
+    width: 315px;
+    height: 60px;
+    right: 1060px;
+    top: 3010px;
+
+    font-size: 42px;
+    line-height: 54px;
+
+    color: #000000;
+}
+
+.solomon3{
+    position: absolute;
+    width: 227px;
+    height: 367px;
+
+    left: 300px;
+    top: 3120px;
+}
+
+.whiterabbit{
+    position: absolute;
+    width: 227px;
+    height: 367px;
+
+    left: 1000px;
+    top: 3120px;
+
+}
+.canadaflag{
+    position: absolute;
+    width: 100px;
+    height: 170px;
+    left: 1190px;
+    top: 3157px;
+    z-index: 0;
+}
+.chatcloud5{
+    position: absolute;
+    width: 460px;
+    height: 138px; 
+
+    left: 420px;
+    top: 3157px;
+}
+.chatcloud6{
+    position: absolute;
+    width: 460px;
+    height: 138px;
+    
+    left: 665px;
+    top: 3220px;
+ 
+    transform: rotate(-176.73deg);
+}
+
+.chat5{
+    position: absolute;
+    left: 580px;
+    top: 3200px; 
+ 
+    font-size: 22px;
+    line-height: 9px;
+ 
+    color: #000000;
+}
+
+.chat6{
+   position: absolute; 
+   left: 830px;
+   top: 3260px; 
+
+   font-size: 21px;
+   line-height: 13px;
+
+   color: #000000;
+}
+
+.reunite{
+    position: absolute;
+    width: 315px;
+    height: 60px;
+    right: 1060px;
+    top: 3550px;
+
+    font-size: 42px;
+    line-height: 54px;
+
+    color: #000000;
+}
+
+.heart1{
+    position: absolute;
+    width: 287px;
+    height: 272px;
+
+    left: 570px;
+    top: 3660px; 
+    animation: heart1 1s infinite ease;
+}
+
+    @keyframes heart1{
+        0% {transform: scale(1) rotate(0);}
+        10% {transform: scale(0.9) rotate(3deg);}
+        20% {transform: scale(1.1) rotate(-3deg);}
+        30% {transform: scale(0.9) rotate(3deg);}
+        40%{transform: scale(1.1) rotate(-3deg);}
+        50%{transform: scale(1.1) rotate(3deg);}
+        60% {transform: scale(1.1) rotate(-3deg);}
+        70% {transform: scale(1.1) rotate(3deg);}
+        80% {transform: scale(1.1) rotate(-3deg);}
+        100% {transform: scale(1) rotate(0);}
+    }
+
+
+.solomon4{
+    position: absolute;
+    width: 252px;
+    height: 430px;
+
+    left: 455px;
+    top: 3665px;
+
+}
+
+.wife1{
+    position: absolute;
+    width: 252px;
+    height: 430px;
+    left: 720px;
+    top: 3660px;
+}
+
+.son1{
+    position: absolute;
+    width: 100px;
+    height: 200px;
+    
+    left: 405px;
+    top: 3890px;
+}
+
+.daughter1{
+    position: absolute;
+    width: 150px;
+    height: 250px;
+    
+    right: 385px;
+    top: 3850px;
+}
+
+.heart2{
+    position: absolute;
+    width: 72px;
+    height: 68px;
+
+    left: 680px;
+    top: 4019px;
+    filter: blur(0.5);
+    animation: heart2 1s infinite ease;
+}
+
+@keyframes heart2{
+  0% {transform: scale(1) rotate(0);}
+  10% {transform: scale(0.9) rotate(4deg);}
+  20% {transform: scale(1.1) rotate(-4deg);}
+  30% {transform: scale(0.9) rotate(4deg);}
+  40%{transform: scale(1.1) rotate(-4deg);}
+  50%{transform: scale(1.1) rotate(4deg);}
+  60% {transform: scale(1.1) rotate(-4deg);}
+  70% {transform: scale(1.1) rotate(4deg);}
+  80% {transform: scale(1.1) rotate(-4deg);}
+  100% {transform: scale(1) rotate(0);}
+}
+
+.dot7{
+    position: absolute;
+    width: 32px;
+    height: 75px;
+    left: 190px;
+    top: 4000px;
+}
+
+.dot8{
+    position: absolute;
+    width: 50px;
+    height: 80px;
+    left: 140px;
+    top: 3800px;
+}
+
+.dot9{
+    position: absolute;
+    width: 50px;
+    height: 70px;
+    
+    left: 375px;
+    top: 3700px;
+
+}
+
+.dot10{
+    position: absolute;
+    width: 50px;
+    height: 60px;
+
+    left: 1000px;
+    top: 3650px;
+}
+
+.dot11{
+    position: absolute;
+    width: 40px;
+    height: 50px;
+    
+    left: 1158px;
+    top: 3890px;
+}
+
+.dot12{
+    position: absolute;
+    width: 20px;
+    height: 50px;
+    
+    left: 1200px;
+    top: 4080px;
+}
+.marqee{
+        width: 100%;
+        height: 100px;
+        left: 0px;
+        top: 4200px;
+        margin: 0 auto;
+        position: relative;
+        
+}
+
+.marqee > ul {
+	padding-left: 0;
+	display: flex;
+	list-style-type: none;
+	animation: marqee 15s linear infinite;
+	position: absolute;
+}
+
+.marqee > ul > li {
+	white-space: nowrap;
+    margin-right: 3em;
+    padding-bottom: 0.05px;
+    font-weight: bold;
+    font-size: 60px;
+    color: black;
+}
+
+@keyframes marqee {
+	0% {
+		left: 100%;
+		transform: translateX(0%);
+	}
+
+	100% {
+		left: 0;
+		transform: translateX(-100%);
+	}
+}
